@@ -23,8 +23,9 @@
   "dependencies": {
     "express": "^4.16.3",
     "express-session": "^1.15.6",
-    "slashes": "^1.0.5",
-    "sql": "^0.78.0"
+    "fs": "0.0.1-security",
+    "mysql": "^2.15.0",
+    "slashes": "^1.0.5"
   },
   "devDependencies": {
     "nodemon": "^1.17.5",
