@@ -1,0 +1,30 @@
+{
+  "name": "cocktail",
+  "version": "1.0.0",
+  "description": "A cocktail app to allow users to create and store their own cocktail recipes",
+  "main": "webserver.js",
+  "scripts": {
+    "start": "node webserver.js",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:server": "nodemon webserver.js",
+    "dev:client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwidjaja945/cocktail-app.git"
+  },
+  "author": "Christina So & Dylan Widjaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwidjaja945/cocktail-app/issues"
+  },
+  "homepage": "https://github.com/dwidjaja945/cocktail-app#readme",
+  "dependencies": {
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "npm-run-all": "^4.1.3"
+  }
+}
