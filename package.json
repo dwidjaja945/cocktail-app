@@ -20,7 +20,9 @@
     "url": "https://github.com/dwidjaja945/cocktail-app/issues"
   },
   "homepage": "https://github.com/dwidjaja945/cocktail-app#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express-session": "^1.15.6"
+  },
   "devDependencies": {
     "nodemon": "^1.17.5",
     "npm-run-all": "^4.1.3"
